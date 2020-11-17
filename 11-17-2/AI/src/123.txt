@@ -1,0 +1,14 @@
+		else{
+			switch(currentImg){
+				case leftImg1:
+				case leftImg2:
+				case leftImg:currentImg=leftImg;break;
+				case rightImg1:
+				case rightImg2:
+				case rightImg:currentImg=rightImg;break;
+				case upImg1:
+				case upImg2:
+				case upImg:currentImg=upImg;break;
+				default:break;
+			}
+		}
