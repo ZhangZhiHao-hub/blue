@@ -25,7 +25,7 @@ class MainCanvas extends Canvas
 	变量的声明
 	语法：数据类型 变量名称（标识符）;
 	*/
-	Image downImg,downImg1,downImg2,leftImg,leftImg1,leftImg2,rightImg,rightImg1,rightImg2,upImg,upImg1,upImg2,currentImg;
+	Image downImg,leftImg,rightImg,upImg,currentImg;
 	int x,y;
 	public MainCanvas(){
 		try
@@ -63,8 +63,7 @@ class MainCanvas extends Canvas
 			/*
 			给变量重新赋值即可
 			*/
-			currentImg=leftImg;
-			x=x-1;
+			currentImg=leftImg;			
 		}
 		if(action==RIGHT){
 			currentImg=rightImg;
