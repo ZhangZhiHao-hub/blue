@@ -32,7 +32,7 @@ class MainCanvas extends Canvas
 	Image heroRightImg[]=new Image[3];
 	Image heroUpImg[]=new Image[3];
 	Image heroDownImg[]=new Image[3];
-
+	Image allImg[][]=new Image[4][3];
 	public MainCanvas(){
 		try
 		{
@@ -40,6 +40,12 @@ class MainCanvas extends Canvas
 			给变量赋值
 			语法：变量名称=value;
 			*/
+			//二维数组
+			for(int i=0;i<4;i++){
+				for(int j=0;j<3;j++){
+					allImg[i][j]=Image.createImage("/sayo"+j+i*2+".png");
+				}
+			}
 			//下
 			for(int i=0;i<heroDownImg.length;i++){
 				heroDownImg[i]=Image.createImage("/sayo"+i+"0.png");
@@ -60,16 +66,6 @@ class MainCanvas extends Canvas
 			leftImg2=Image.createImage("/sayo02.png");
 			*/
 
-			//右
-			for(int i=0;i<heroRightImg.length;i++){
-				heroRightImg[i]=Image.createImage("/sayo"+i+"6.png");
-			}
-			/*
-			rightImg=Image.createImage("/sayo16.png");
-			rightImg1=Image.createImage("/sayo26.png");
-			rightImg2=Image.createImage("/sayo06.png");
-			*/
-
 			//上
 			for(int i=0;i<heroUpImg.length;i++){
 				heroUpImg[i]=Image.createImage("/sayo"+i+"4.png");
@@ -78,6 +74,16 @@ class MainCanvas extends Canvas
 			upImg=Image.createImage("/sayo14.png");
 			upImg1=Image.createImage("/sayo24.png");
 			upImg2=Image.createImage("/sayo04.png");
+			*/
+
+			//右
+			for(int i=0;i<heroRightImg.length;i++){
+				heroRightImg[i]=Image.createImage("/sayo"+i+"6.png");
+			}
+			/*
+			rightImg=Image.createImage("/sayo16.png");
+			rightImg1=Image.createImage("/sayo26.png");
+			rightImg2=Image.createImage("/sayo06.png");
 			*/
 
 			currentImg=heroDownImg[1];
@@ -100,11 +106,11 @@ class MainCanvas extends Canvas
 		*/
 		if(action==LEFT){
 			if(left==1){
-				currentImg=heroLeftImg[0];
+				currentImg=allImg[1][0];
 				left++;
 			}
 			else if(left==2){
-				currentImg=heroLeftImg[2];
+				currentImg=allImg[1][2];
 				left=1;
 			}
 			x=x-1;
