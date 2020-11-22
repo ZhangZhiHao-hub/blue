@@ -41,8 +41,8 @@ class MainCanvas extends Canvas
 			语法：变量名称=value;
 			*/
 			//二维数组
-			for(int i=0;i<4;i++){
-				for(int j=0;j<3;j++){
+			for(int i=0;i<allImg.length;i++){
+				for(int j=0;j<allImg[i].length;j++){
 					allImg[i][j]=Image.createImage("/sayo"+j+i*2+".png");
 				}
 			}
@@ -118,11 +118,11 @@ class MainCanvas extends Canvas
 		}
 		if(action==RIGHT){
 			if(right==1){
-				currentImg=heroRightImg[0];
+				currentImg=allImg[3][0];
 				right++;
 			}
 			else if(right==2){
-				currentImg=heroRightImg[2];
+				currentImg=allImg[3][2];
 				right=1;
 			}
 			x=x+1;
@@ -130,11 +130,11 @@ class MainCanvas extends Canvas
 		}
 		if(action==UP){
 			if(up==1){
-				currentImg=heroUpImg[0];
+				currentImg=allImg[2][0];
 				up++;
 			}
 			else if(up==2){
-				currentImg=heroUpImg[2];
+				currentImg=allImg[2][2];
 				up=1;
 			}
 			y=y-1;
@@ -142,11 +142,11 @@ class MainCanvas extends Canvas
 		}
 		if(action==DOWN){
 			if(down==1){
-				currentImg=heroDownImg[0];
+				currentImg=allImg[0][0];
 				down++;
 			}
 			else if(down==2){
-				currentImg=heroDownImg[2];
+				currentImg=allImg[0][2];
 				down=1;
 			}
 			y=y+1;
