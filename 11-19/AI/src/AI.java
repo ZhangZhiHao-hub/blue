@@ -28,10 +28,7 @@ class MainCanvas extends Canvas
 	int x,y;int down,up,left,right;
 
 	Image currentImg;
-	Image heroLeftImg[]=new Image[3];
-	Image heroRightImg[]=new Image[3];
-	Image heroUpImg[]=new Image[3];
-	Image heroDownImg[]=new Image[3];
+
 	Image allImg[][]=new Image[4][3];
 	public MainCanvas(){
 		try
@@ -46,47 +43,9 @@ class MainCanvas extends Canvas
 					allImg[i][j]=Image.createImage("/sayo"+j+i*2+".png");
 				}
 			}
-			//об
-			for(int i=0;i<heroDownImg.length;i++){
-				heroDownImg[i]=Image.createImage("/sayo"+i+"0.png");
-			}
-			/*
-			downImg=Image.createImage("/sayo10.png");
-			downImg1=Image.createImage("/sayo20.png");
-			downImg2=Image.createImage("/sayo00.png");
-			*/
 
-			//вС
-			for(int i=0;i<heroLeftImg.length;i++){
-				heroLeftImg[i]=Image.createImage("/sayo"+i+"2.png");
-			}
-			/*
-			leftImg=Image.createImage("/sayo12.png");
-			leftImg1=Image.createImage("/sayo22.png");
-			leftImg2=Image.createImage("/sayo02.png");
-			*/
 
-			//ио
-			for(int i=0;i<heroUpImg.length;i++){
-				heroUpImg[i]=Image.createImage("/sayo"+i+"4.png");
-			}
-			/*
-			upImg=Image.createImage("/sayo14.png");
-			upImg1=Image.createImage("/sayo24.png");
-			upImg2=Image.createImage("/sayo04.png");
-			*/
-
-			//ср
-			for(int i=0;i<heroRightImg.length;i++){
-				heroRightImg[i]=Image.createImage("/sayo"+i+"6.png");
-			}
-			/*
-			rightImg=Image.createImage("/sayo16.png");
-			rightImg1=Image.createImage("/sayo26.png");
-			rightImg2=Image.createImage("/sayo06.png");
-			*/
-
-			currentImg=heroDownImg[1];
+			currentImg=allImg[0][1];
 			x=120;y=100;left=1;right=1;up=1;down=1;
 		}
 		catch (IOException e)
