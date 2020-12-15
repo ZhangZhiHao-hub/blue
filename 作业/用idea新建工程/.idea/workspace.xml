@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e23f6cd-d92d-4d04-8571-3044630fc30d" name="Default Changelist" comment="" />
+    <list default="true" id="88e01cb2-6fd5-44b8-9c8b-d69eb2511903" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreateXL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12-14/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12-14/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12-14/.idea/libraries/commons_math3_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12-14/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12-14/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12-14/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12-14/createXLS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12-14/out/production/createXLS/CreateXL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12-14/src/CreateXL.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,21 +27,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CreateXL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="33" column="48" lean-forward="true" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/createXLS.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -37,58 +45,52 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="C:\apache-maven-3.6.1\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="606" />
+    <option name="y" value="80" />
+    <option name="width" value="2800" />
+    <option name="height" value="2000" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="140" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="970" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="createXLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="12-14" type="462c0819:PsiDirectoryNode" />
+              <item name="用POI输出XLS文件（二维数组方法）" type="b2602c69:ProjectViewProjectNode" />
+              <item name="用idea新建工程" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="createXLS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="12-14" type="462c0819:PsiDirectoryNode" />
+              <item name="用POI输出XLS文件（二维数组方法）" type="b2602c69:ProjectViewProjectNode" />
+              <item name="用idea新建工程" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607950989163" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/poi-4.1.2.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608043476588" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../12-14/poi-4.1.2.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lenovo\Desktop\12-14\src" />
+      <recent name="C:\Users\张植皓\Desktop\blue\作业\用idea新建工程\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -106,7 +108,7 @@
   <component name="RunManager">
     <configuration name="CreateXL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreateXL" />
-      <module name="createXLS" />
+      <module name="用POI输出XLS文件（二维数组方法）" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,27 +124,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e23f6cd-d92d-4d04-8571-3044630fc30d" name="Default Changelist" comment="" />
-      <created>1607946795342</created>
+      <changelist id="88e01cb2-6fd5-44b8-9c8b-d69eb2511903" name="Default Changelist" comment="" />
+      <created>1608042782812</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607946795342</updated>
-      <workItem from="1607946802342" duration="2057000" />
+      <updated>1608042782812</updated>
+      <workItem from="1608042785621" duration="719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2057000" />
+    <option name="totallyTimeSpent" value="719000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="303" y="40" width="1400" height="1000" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20476772" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -152,7 +154,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32997763" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -172,16 +174,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/createXLS.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CreateXL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="48" lean-forward="true" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -237,7 +233,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>createXLS</last-edited>
+          <last-edited>用POI输出XLS文件（二维数组方法）</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
